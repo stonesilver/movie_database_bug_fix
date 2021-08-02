@@ -1,10 +1,10 @@
 import React from 'react';
-import CarouselDisplay from '../Carousel/Carousel';
-import Popular from '../Popular/Popular';
-import FreeToWatch from '../kids/kids';
-import LatestTrailer from '../LatestTrailer/LatestTrailer';
-import Trending from '../Trending/Trending';
-import JoinUs from '../JoinUs/JoinUs';
+import CarouselDisplay from '../Carousel/Carousel.component';
+import Popular from '../Popular/Popular.component';
+import FreeToWatch from '../kids/kids.component';
+import LatestTrailer from '../LatestTrailer/LatestTrailer.component';
+import Trending from '../Trending/Trending.component';
+import JoinUs from '../JoinUs/JoinUs.component';
 
 const Homepage = () => {
   return (

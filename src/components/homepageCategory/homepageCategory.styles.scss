@@ -1,0 +1,26 @@
+@import '../../assets/sass-variables';
+
+.homepageCategory-container {
+  margin-top: 0.2rem;
+  padding: 1rem;
+  min-height: 40vh;
+  color: #fff;
+
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem;
+  }
+
+  .main-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(145px, 1fr);
+    column-gap: .7rem;
+    padding-bottom: 1rem;
+    overflow-x: auto;
+    margin-top: 0.5rem;
+
+    @media all and (max-width: 768px) {
+      grid-auto-columns: minmax(115px, 1fr);
+    }
+  }
+}
